@@ -1,0 +1,48 @@
+/* CSS Document */
+ul.nav{
+	margin:0px;
+	padding:0px;
+	list-style:none;	
+	width:auto;
+}
+ul.nav li{
+	float:left;
+	position:relative;	
+}
+ul.nav li a{
+	float:left;
+	display:block;
+	padding:5px;
+	background:#999;
+	width:80px;
+	border-left:1px solid #f1f1f1;
+}
+ul.nav li > ul{
+	position:absolute;
+	top:30px;
+	width:190px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:none;
+}
+ul.nav li > ul >li{
+	display:block;
+	position:relative;
+}
+ul.nav li > ul >li >a{
+	display:block;
+	background:#09F;
+	color:#FFF;
+	width:180px;
+	border-bottom:1px solid #FFF;
+	border-left:none;
+}
+ul.nav li > ul >li >ul{
+	position:absolute;
+	left:190px;
+	top:0px;
+}
+ul.nav li:hover > ul{
+	display:block;	
+}

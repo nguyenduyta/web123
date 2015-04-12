@@ -1,0 +1,152 @@
+@CHARSET "ISO-8859-1";
+.frameArrow{
+    position:absolute;
+    width: 20px;
+    height: 11px;
+    background: url('/images/layoutv4/muiten_frame.png') no-repeat;
+    z-index: 11;
+}
+.disableFrame{
+    width: 1000px;
+    height: 1000px;
+    cursor: pointer;
+}
+.arrowEvent{
+    top: -4px;
+    right: 11.04%;
+}
+.arrowComment{
+    top: -4px;
+    right: 35.62%;
+}
+.arrowTrophy{
+    top: -4px;
+    right: 35.62%;
+}
+.arrowHighScore{
+    top: -4px;
+    left: 34.79%;
+}
+.arrowUpdate{
+    top: -4px;
+    left: 10.42%;
+}
+#frameComment,#frameUpdate,#frameHighScore,#frameEvent,#frameTrophy{
+    position: relative;
+}
+.frame{
+    border: 1px solid #C5C5C5;
+    background-color: white;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    -webkit-border-radius: 3px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    border-radius: 3px;
+    position: absolute;
+    z-index: 10;
+    width: 70%;
+    max-width: 336px;
+    overflow-x: hidden;
+}
+.frameEvent{
+    top: 6px;
+    right: 0px;
+}
+.frameComment{
+    top: 6px;
+    right: 0px;
+}
+.frameTrophy{
+    top: 6px;
+    right: 0px;
+}
+.frameUpdate{
+    top: 6px;
+    left: 0px;
+}
+.frameHighScore{
+    top: 6px;
+    left: 0px;
+}
+.uiHeaderTitle{
+    border-bottom: 1px solid rgba(100, 100, 100, 0.22);
+    padding: 8px 8px 6px;
+    position: relative;
+}
+.closeFrame{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width: 40px;
+	height: 30px;
+	background: url(/images/layoutv4/close.png) no-repeat;
+	background-position: 10px 10px;
+	cursor: pointer;
+	
+}
+.uiScroll{
+    height: auto;
+    max-height: 330px;
+    overflow: hidden;
+}
+.bottomFrame{
+	text-align: center;
+	padding: 2px 0px;
+	font-size: 12px;
+	padding-top: 3px;
+}
+.uiContent{
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.22);
+}
+.title_frame{
+    
+}
+.eventContent{
+	width: 100%;
+	height: auto;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.22);  
+}
+.fa_logo{
+	display:inline;
+	width: 16.4%;
+    max-width: 55px;
+    float: left;
+    padding: 5px 0px 0px 5px;
+}
+.uiInbox{
+    float: left;
+    width: 70%;
+    padding: 5px 0px 0px 5px;
+    
+}
+.fa_title,.fa_content,.fa_time{
+    display: block;
+    text-align: justify;
+    line-height: 18px;
+    font-size: 11px;
+    color: gray;
+}
+.fa_content{
+    height: 18px;
+    overflow: hidden;
+    
+}
+.fa_title{
+    color: black;
+    font-weight: bold;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    height: 18px; overflow: hidden;
+}
+/* Tiny Scrollbar */
+.frame .scrollbar{ background: transparent url(/images/layoutv4/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+.frame .track { background: transparent url(/images/layoutv4/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.frame .thumb { background: transparent url(/images/layoutv4/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+.frame .thumb .end { background: transparent url(/images/layoutv4/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+.frame .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+span.noti2{
+	left: 11px;
+}
+.noti2 .in_no{
+    
+}

@@ -1,0 +1,67 @@
+/* CSS Document */
+ul.nav{
+	margin:0px;
+	padding:0px;
+	list-style:none;	
+	width:auto;
+}
+ul.nav > li{
+	float:left;
+	position:relative;
+    display: block;
+}
+ul.nav li a{
+	float:left;
+	display:block;
+	padding:0px 34px;
+    line-height: 38px;
+    color: #FFF;
+}
+ul.nav li a:hover{
+    color:#FFF;
+}
+ul.nav li > ul{
+	position:absolute;
+	top:38px;
+	width:150px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:none;
+    z-index: 9999;
+}
+ul.nav li > ul >li{
+    border-right: none;
+	display:block;
+	position:relative;
+}
+ul.nav li > ul >li >a{
+	display:block;
+	background:url(../img/bg_menucon.gif) repeat;
+	color:red;
+	width:150px;
+    height: 36px;
+    border-right: 1px solid #dfe5e6;
+    border-left: 1px solid #dfe5e6;
+}
+ul.nav li > ul >li >a:hover{
+    color:red;
+}
+ul.nav li > ul >li >ul{
+	position:absolute;
+	left:222px;
+	top:0px;
+}
+ul.nav li:hover > ul{
+	display:block;
+    color: red;
+}
+#nav3 > ul.nav > li:hover .nav li a{
+    color: red;
+    width: 173px;
+    border-right: none;
+
+}
+#nav3 > ul.nav > li,a{
+    border-right:none;
+}

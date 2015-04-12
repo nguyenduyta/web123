@@ -1,0 +1,41 @@
+/*Back to top*/
+#back_to_top {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    text-indent: -99999px;
+    cursor: pointer;
+    background: url('../images/top.png') no-repeat;
+}
+
+.require {
+    color: red;
+    font-weight: bold;
+}
+.no_record {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.success, .result {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    font-size: 14px;
+}
+
+
+
+/*Bai viet gioi thieu*/
+.content{
+    line-height: 24px;
+}
+
+.selectper_formpost {
+    height: 500px;
+    width: 450px;
+}

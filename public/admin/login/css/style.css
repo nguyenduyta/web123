@@ -1,0 +1,147 @@
+* {margin:0; padding:0;}
+
+html {
+	font: 90%/1.3 tahoma,helvetica,sans-serif;
+}
+
+
+label {
+	width: 25%;
+	font-weight: normal;
+	float: left;
+	margin-right: 20px;
+	text-align: right
+}
+
+input[type="text"], input[type="password"] {
+	padding:0.15em;
+	color: #0c72b7;
+	width: 230px;
+	border:1px solid #ddd;
+	background:#fafafa;
+	font:bold 0.95em arial, sans-serif;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius:5px;
+}
+
+input[type="checkbox"] {
+	text-align: right;
+}
+
+input:hover, input:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+} 
+
+input.default {
+	color:#bbb;
+}
+
+
+body {
+	background: #fff url("../images/body_bg.jpg") repeat-x top left;
+}
+
+#content {
+	position: relative;
+	width: auto;
+	margin: 100px auto;
+}
+
+#logo {
+	width: 400px;
+	height: 131px;
+	margin: 0 auto;
+	background: url("../images/logo-ngc.png") no-repeat center left;
+}
+
+
+
+#login {
+	width: auto;
+	margin-left: 80px;
+	height: 150px;
+}
+
+#login .default {
+	float: left;
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+#login .title {
+	margin: 0 0 10px 45px;
+	color: #0c72b7;
+	font-weight: bolder;
+	font-size: 16px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+#login .icolog {
+	display: block;
+	width: 16px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	right: 150px;
+	background: transparent  url("../images/icolog.png") no-repeat;
+}
+
+#login .btnlogin {
+	text-align: right;
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
+#login #btnlogin {
+	display: inline-block;
+	width: 114px;
+	height: 46px;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	font-family: tahoma;
+	text-transform: uppercase;
+	margin: 10px 0;
+	background: url("../images/btnlogin.png") no-repeat;
+    cursor: pointer;
+}
+
+
+#top {
+	width: 494px;
+	height: 32px;
+	margin: 0 auto;
+	background: url("../images/top-box.png") no-repeat center;
+}
+
+#middle {
+	width: 494px;
+	position: relative;
+	height: auto;
+	margin: 0 auto;
+	background: url("../images/midle-box.png") repeat-y center;
+}
+#lock {
+	position: absolute;
+	width: 108px;
+	height: 110px;
+	top: 10px;
+	left: 20px;
+	background: transparent url("../images/lock.png") no-repeat;
+}
+
+
+
+#bottom {
+	width: 494px;
+    text-align: center;
+	height: 32px;
+    line-height: 32px;
+    color: #FFF;
+	margin: 0 auto;
+	background: url("../images/bottom-box.png") no-repeat center;
+}
